@@ -24,6 +24,32 @@
   place-items: center;
   justify-content: center;
 }
+#tophalfcircle {
+  width: 200px;
+  height: 120px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 25px solid #2a3d81;
+  border-bottom: 0;
+  transform: rotate(270deg);
+  border-bottom: 0;
+  position: absolute;
+  left: 270px;
+  bottom: 230px;
+  transform: rotate(180deg);
+}
+#lefthalfcircle {
+  width: 200px;
+  height: 120px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 25px solid #2a3d81;
+  border-bottom: 0;
+  transform: rotate(270deg);
+  border-bottom: 0;
+  position: absolute;
+  left: 220px;
+  transform: rotate(90deg);
+}
+
 #bottomhalfcircle {
   width: 200px;
   height: 120px;
@@ -34,17 +60,6 @@
   bottom: 120px;
 }
 #righthalfcircle {
-  width: 200px;
-  height: 120px;
-  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-  border: 25px solid #2a3d81;
-  border-bottom: 0;
-  transform: rotate(270deg);
-  border-bottom: 0;
-  position: absolute;
-  right: 220px;
-}
-#lefthalfcircle {
   width: 200px;
   height: 120px;
   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
