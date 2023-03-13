@@ -1,3 +1,57 @@
 .project {
   color: red;
 }
+
+#flagbody {
+  display: flex;
+  background-color: #2a3d81;
+  height: 500px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#innercircle {
+  background-color: #6b92cb;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+}
+#bottomhalfcircle {
+  width: 200px;
+  height: 120px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 25px solid #2a3d81;
+  border-bottom: 0;
+  position: absolute;
+  bottom: 120px;
+}
+#righthalfcircle {
+  width: 200px;
+  height: 120px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 25px solid #2a3d81;
+  border-bottom: 0;
+  transform: rotate(270deg);
+  border-bottom: 0;
+  position: absolute;
+  right: 220px;
+}
+#lefthalfcircle {
+  width: 200px;
+  height: 120px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 25px solid #2a3d81;
+  border-bottom: 0;
+  transform: rotate(270deg);
+  border-bottom: 0;
+  position: absolute;
+  right: 220px;
+}
